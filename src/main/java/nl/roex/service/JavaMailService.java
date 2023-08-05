@@ -84,7 +84,7 @@ public class JavaMailService {
     }
 
     private void addDisclaimer(MimeBodyPart mimeBodyPart, Multipart multipart) throws MessagingException {
-        String filename = getClass().getClassLoader().getResource("disclaimer/triodos.png").getPath();
+        String filename = getClass().getClassLoader().getResource("disclaimer/disclaimer_image.png").getPath();
         DataSource source = new FileDataSource(filename);
         mimeBodyPart.setDataHandler(new DataHandler(source));
         mimeBodyPart.setFileName("Disclaimer image");

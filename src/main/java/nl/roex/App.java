@@ -15,8 +15,8 @@ public class App {
         JavaMail javaMail = new JavaMail();
         javaMail.setSubject("Java mailing test");
         javaMail.setContent(javaResourceService.getContent("mail/mailbody.html"));
-        javaMail.addAttachment(javaResourceService.getFile("attachments/1_Custom_MiddleWare.docx"));
-        javaMail.addAttachment(javaResourceService.getFile("attachments/MobileWireframe.jpeg"));
+        javaMail.addAttachment(javaResourceService.getFile("attachments/attachment1.docx"));
+        javaMail.addAttachment(javaResourceService.getFile("attachments/attachment2.jpeg"));
 
         javaMailService.sendMail(javaMail);
     }
