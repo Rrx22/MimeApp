@@ -3,6 +3,8 @@
 
 ### Maven ###
 target/
+.idea/
+src/main/resources/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
