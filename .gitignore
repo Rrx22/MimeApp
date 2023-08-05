@@ -4,12 +4,13 @@
 ### Maven ###
 target/
 .idea/
-src/main/resources/
+src/main/resources/attachments/
+src/main/resources/disclaimer/
+src/main/resources/mail/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
-mail.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties

@@ -14,7 +14,7 @@ public class App {
     public static void main(String[] args) throws IOException {
         JavaMail javaMail = new JavaMail();
         javaMail.setSubject("Java mailing test");
-        javaMail.setContent(javaResourceService.getContent("mailbody.html"));
+        javaMail.setContent(javaResourceService.getContent("mail/mailbody.html"));
         javaMail.addAttachment(javaResourceService.getFile("attachments/1_Custom_MiddleWare.docx"));
         javaMail.addAttachment(javaResourceService.getFile("attachments/MobileWireframe.jpeg"));
 
